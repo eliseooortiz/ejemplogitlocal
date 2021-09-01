@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta lang="es"/>
+        <title>Contacto</title>
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="nav">
+            <ul class="horizontal">
+                <li><a href="index.html" >Index</a></li>
+                <li><a href="formulario.html" >Formulario</a></li>
+            </ul>
+            
+        </div>
+        <h1>Contacto</h1>
+        <form action="#" method="GET" class="contacto-main">
+            <label  for="nombre">Nombre: <input type="text" name="nombre" placeholder="Escribe tu nombre"/></label>
+            
+            
+            <label for="correo">Correo: <input type="email" name="correo" placeholder="Escribe tu correo"/></label>
+            
+            
+            
+            <label for="genero">Genero: <input type="radio" name="genero" value="hombre"/>Hombre
+                <input type="radio" name="genero" value="mujer"/>Mujer</label>
+ 
+         
+            <label for="contra">Contraseña: <input type="password" name="contra" placeholder="password"/></label>
+            
+            
+            <label id="texto-comentario" for="comentario">Comentario:<br> <textarea name="comentario" rows="10" cols="50" placeholder="escribe tu comentario aqui"></textarea></label>
+            
+            
+            <label for="ciudad">Ciudad:
+                <select name="ciudad"> <!-- Se envia la informacion del value en caso de no tenerla entonces se envia el nombre de la opcion actual-->
+                    <option value="01" selected>Guadalajara</option>
+                    <option value="02">Zapopan</option>
+                    <option value="03"> Tonala</option>
+                    <option value="04"> Otra</option>
+                </select>
+            </label>
+            
+  
+            <label for="contacto">Me interesa contactarte: <input type="checkbox" name="contacto"/></label>   
+            
+            
+            <input id="submit-button"type="submit" value="Enviar"/>
+        </form>
+    </body>
+
+</html>

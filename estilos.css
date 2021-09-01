@@ -1,0 +1,130 @@
+body{
+    background-color: #dae3e5;
+}
+.nav{
+    
+    width: 100%;
+    background-color: #507dbc;
+    height:60px;
+}
+.nav a{
+    
+    background-color: #033e91;
+
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    
+}
+.nav a:hover{
+    background-color: #002f72;
+}
+.horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.horizontal li{
+    
+    float: left;
+}
+#encabezado{
+    font-family: 'Brush Script MT', cursive;
+    color: #04080f;
+}
+
+.seccion{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.conocimientos{
+    list-style-type: square;
+}
+#table-title{
+    background-color: darkblue;
+    border-radius: 30px;
+    color: white    ;
+}
+th{
+    border-radius: 10px;
+}
+
+.table-main{
+    background-color: rgb(26, 26, 71);
+    margin: 10px;
+    border-radius: 10px;
+}
+.table-odd{
+    background-color: rgb(79, 79, 182);
+    
+}
+.table-odd td{
+    border-radius: 10px;
+    
+}
+.table-pair{
+    background-color: rgb(42, 42, 121);
+}
+.table-pair td{
+    border-radius: 10px;
+    
+}
+img{
+    border-radius: 50%;
+}
+.footer{
+    background-color: #033e91;
+    color:white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.footer h1{
+    display:inline;
+}
+#contacto-footer{
+    color:black;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.contacto-main{
+    background-color: darkblue;
+    
+    border-radius: 10px;
+    width: 50%;   
+}
+label{
+    background-color: rgb(26, 26, 71);
+    margin: 10px;
+    border-radius: 10px;
+    color:white;
+    display: block;
+    padding-left: 10px;
+}
+#texto-comentario{
+    display: block;
+   
+}
+#submit-button{
+    
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #033e91;
+    color:white;
+    border-radius: 10px;
+}
+#submit-button:hover{
+    background-color: #033070;
+}
+input{
+    border-radius: 10px;
+}
